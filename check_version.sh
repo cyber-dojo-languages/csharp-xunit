@@ -24,5 +24,5 @@ check_version()
   fi
 }
 
-check_version dotnet 10.0.103 'dotnet --version'
-check_version xunit 4.0.0 'ls /home/sandbox/.nuget/packages/xunit.v3'
+check_version dotnet 10.0 'dotnet --version'
+check_version xunit 4.0 'ls /home/sandbox/.nuget/packages/xunit.v3'
